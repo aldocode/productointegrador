@@ -1,0 +1,76 @@
+/* Estilos para el encabezado */
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  /* Estilos para el contenido principal */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  /* Estilos para los formularios */
+  form {
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Estilos para las tablas */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Funciones para hacer la página web responsive */
+  @media screen and (max-width: 768px) {
+    main {
+      padding: 0.5rem;
+    }
+    
+    input[type="text"],
+    input[type="email"] {
+      width: calc(100% - 1rem);
+    }
+    
+    table {
+      font-size: 0.8rem;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    input[type="text"],
+    input[type="email"] {
+      padding: 0.25rem;
+    }
+    
+    table {
+      font-size: 0.7rem;
+    }
+  }
+  
